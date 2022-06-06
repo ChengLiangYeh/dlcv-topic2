@@ -1,9 +1,9 @@
 # Deep Learning for Computer Vision
-## Project2 Problem 1― Image Classification
-In problem 1, you will need to implement an image classification model and answer some questions in the report.
-
-# HW2 Problem 2― Semantic Segmentation
-In HW2 problem 2, you will need to implement two semantic segmentation models and answer some questions in the report.
+## HW2 Project 1 ― Image Classification
+In project 1, you will need to implement an image classification model and answer some questions in the report.
+![1](/dlcv_hw2_project/pic/.png)
+## HW2 Project 2 ― Semantic Segmentation
+In project 2, you will need to implement two semantic segmentation models and answer some questions in the report.
 
 For more details, please click [this link](https://drive.google.com/file/d/1tJhyt7HSUVdnT2w2uJEakn7BiIApfZ8Y/view?usp=sharing) to view the slides of HW2 
 
