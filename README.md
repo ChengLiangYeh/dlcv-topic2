@@ -27,36 +27,36 @@
 ![1](./pic/FCN.png)
 
 ## Evaluation
-To evaluate semantic segmentation model, run the evaluation script by using the following command.
+- To evaluate semantic segmentation model, run the evaluation script by using the following command.
 
     python3 mean_iou_evaluate.py <--pred PredictionDir> <--labels GroundTruthDir>
+    
+    `<PredictionDir>` should be the directory to your predicted semantic segmentation map (e.g. `hw2_data/prediction/`)
+    
+    `<GroundTruthDir>` should be the directory of ground truth (e.g. `hw2_data/val/seg/`)
 
- - `<PredictionDir>` should be the directory to your predicted semantic segmentation map (e.g. `hw2_data/prediction/`)
- - `<GroundTruthDir>` should be the directory of ground truth (e.g. `hw2_data/val/seg/`)
-
-Note that your predicted segmentation semantic map file should have the same filename as that of its corresponding ground truth label file (both of extension ``.png``).
+- Note that your predicted segmentation semantic map file should have the same filename as that of its corresponding ground truth label file (both of extension ``.png``).
 
 ## Visualization
-To visualization the ground truth or predicted semantic segmentation map in an image, run the visualization script by using the following command.
+- To visualization the ground truth or predicted semantic segmentation map in an image, run the visualization script by using the following command.
 
     python3 viz_mask.py <--img_path xxxx_sat.jpg> <--seg_path xxxx_mask.png>
 
-
-## Others
- 1.   `hw2_<StudentID>.pdf`  
-It's the report about HW2 projects.
- 2.   `hw2_1.sh`  
-The shell script file for running classification model.
- 3.   `hw2_2.sh`  
-The shell script file for running baseline semantic segmentation model.
- 4.   `hw2_2_best.sh`  
-The shell script file for running improved segmentation model.
- 5.   Trained Models weights will be auto downloaded by shell script file commands. If the dropbox link dead, please contact me. 
-
 ## Packages
-This homework should be done using python3.6. Please refer to the requirments.txt for more details about others packages.
-You can run the following command to install all the packages listed in the requirements.txt:
+- This homework should be done using python3.6. Please refer to the requirments.txt for more details about others packages.
+- You can run the following command to install all the packages listed in the requirements.txt:
 
     pip3 install -r requirements.txt
 
-Note that using packages with different versions will very likely lead to compatibility issues, so make sure that you install the correct version if one is specified above.
+- Note that using packages with different versions will very likely lead to compatibility issues, so make sure that you install the correct version if one is specified above.
+
+## Others
+ 1.   `hw2_<StudentID>.pdf`  
+    It's the report about HW2 projects.
+ 2.   `hw2_1.sh`  
+    The shell script file for running classification model.
+ 3.   `hw2_2.sh`  
+    The shell script file for running baseline semantic segmentation model.
+ 4.   `hw2_2_best.sh`  
+    The shell script file for running improved segmentation model.
+ 5.   Trained Models weights will be auto downloaded by shell script file commands. If the dropbox link dead, please contact me. 
