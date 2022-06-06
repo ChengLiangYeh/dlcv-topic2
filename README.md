@@ -1,6 +1,6 @@
-
-# HW2 Problem 1― Image Classification
-In HW2 problem 1, you will need to implement an image classification model and answer some questions in the report.
+# Deep Learning for Computer Vision
+## Project2 Problem 1― Image Classification
+In problem 1, you will need to implement an image classification model and answer some questions in the report.
 
 # HW2 Problem 2― Semantic Segmentation
 In HW2 problem 2, you will need to implement two semantic segmentation models and answer some questions in the report.
