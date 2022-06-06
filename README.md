@@ -11,11 +11,11 @@
 
 ![1](./pic/semantic_segmentation.png)
 
-## Dataset:
+## Dataset
 - Contact me for Dataset. 
 - Email: chengliang.yeh@gmail.com
 
-## Models:
+## Models
 - For image classification, I used pre-trained VGG16 as a backbone CNN model to fulfill the task.
 
 ![1](./pic/image_classification2.png)
@@ -41,6 +41,8 @@
 - To visualization the ground truth or predicted semantic segmentation map in an image, run the visualization script by using the following command.
 
     python3 viz_mask.py <--img_path xxxx_sat.jpg> <--seg_path xxxx_mask.png>
+    
+## Result (please check more details in hw2_report.pdf)
 
 ## Packages
 - This homework should be done using python3.6. Please refer to the requirments.txt for more details about others packages.
