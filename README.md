@@ -24,6 +24,9 @@
 ![1](./pic/semantic_segmentation2.png)
 
 
+![1](./pic/FCN.png)
+
+
 ### Evaluation
 To evaluate your semantic segmentation model, you can run the provided evaluation script provided in the starter code by using the following command.
 
