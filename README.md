@@ -51,15 +51,13 @@
 - Note that using packages with different versions will very likely lead to compatibility issues, so make sure that you install the correct version if one is specified above.
 
 ## Others
- 1.   `hw2_<StudentID>.pdf`  
-    It's the report about HW2 projects.
- 2.   `hw2_1.sh`  
+ 1.   `hw2_1.sh`  
     The shell script file for running classification model.
- 3.   `hw2_2.sh`  
+ 2.   `hw2_2.sh`  
     The shell script file for running baseline semantic segmentation model.
- 4.   `hw2_2_best.sh`  
+ 3.   `hw2_2_best.sh`  
     The shell script file for running improved segmentation model.
- 5.   Run code in the following manner:
+ 4.   Run code in the following manner:
  
             - bash hw2_1.sh $1 $2
             
@@ -71,4 +69,4 @@
             
             where `$1` is the testing images directory (e.g. `test/images/`), and `$2` is the output prediction directory for segmentation maps (e.g. `test/label_pred/` ).
 
- 6.   Trained Models weights will be auto downloaded by shell script file commands. If the dropbox link dead, please contact me. 
+ 5.   Trained Models weights will be auto downloaded by shell script file commands. If the dropbox link dead, please contact me. 
