@@ -43,7 +43,16 @@
     python3 viz_mask.py <--img_path xxxx_sat.jpg> <--seg_path xxxx_mask.png>
     
 ## Result
-- 
+### Project 1, tSNE result: 
+
+![1](./pic/tSNE.png)
+
+### Project 2, model predicted masks visualization:
+- FCN32s
+![1](./pic/fcn32_result1.png)
+- FCN8s
+![1](./pic/fcn8_result1.png)
+
 - Please check more details in hw2_report.pdf)
 ## Packages
 - This homework should be done using python3.6. Please refer to the requirments.txt for more details about others packages.
