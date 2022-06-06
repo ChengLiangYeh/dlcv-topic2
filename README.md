@@ -11,7 +11,13 @@
 
 ![1](./pic/semantic_segmentation.png)
 
-## Methods:
+## Dataset:
+- Contact me for Dataset. 
+- Email: chengliang.yeh@gmail.com
+
+## Implementation:
+- For image classification, I used pre-trained VGG16 as a backbone CNN model to fulfill the task.
+- For semantic segmentation, I used VGG16-FCN32s and VGG16-FCN8s to fulfill the task.  
 
 ### Evaluation
 To evaluate your semantic segmentation model, you can run the provided evaluation script provided in the starter code by using the following command.
