@@ -53,7 +53,7 @@
 - FCN8s
 ![1](./pic/fcn8_result1.png)
 
-- Please check more details in hw2_report.pdf)
+### Please check more details in hw2_report.pdf)
 ## Packages
 - This homework should be done using python3.6. Please refer to the requirments.txt for more details about others packages.
 - You can run the following command to install all the packages listed in the requirements.txt:
