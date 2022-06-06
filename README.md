@@ -42,8 +42,9 @@
 
     python3 viz_mask.py <--img_path xxxx_sat.jpg> <--seg_path xxxx_mask.png>
     
-## Result (please check more details in hw2_report.pdf)
-
+## Result
+- 
+- Please check more details in hw2_report.pdf)
 ## Packages
 - This homework should be done using python3.6. Please refer to the requirments.txt for more details about others packages.
 - You can run the following command to install all the packages listed in the requirements.txt:
