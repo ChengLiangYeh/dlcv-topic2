@@ -5,27 +5,13 @@
 
 ![1](./pic/image_classification.png)
 
-
 ## HW2 Project 2 ― Semantic Segmentation
 - In project 2, you will need to implement two semantic segmentation models and answer some questions in the report.
-- 
+- Dataset: 2000 satellite images with ground truthes(masks) in training set. 257 images-masks pair in validation set. There are 7 possible classes for each pixel.
 
-For more details, please click [this link](https://drive.google.com/file/d/1tJhyt7HSUVdnT2w2uJEakn7BiIApfZ8Y/view?usp=sharing) to view the slides of HW2 
+![1](./pic/semantic_segmentation.png)
 
-# Usage
-To start working on this assignment, you should clone this repository into your local machine by using the following command.
-
-    git clone https://github.com/DLCV-Fall-2020/hw2-<username>.git
-Note that you should replace `<username>` with your own GitHub username.
-
-### Dataset
-In the starter code of this repository, we have provided a shell script for downloading and extracting the dataset for this assignment. For Linux users, simply use the following command.
-
-    bash ./get_dataset.sh
-The shell script will automatically download the dataset and store the data in a folder called `hw2_data`. Note that this command by default only works on Linux. If you are using other operating systems or you can not download the dataset by running the command above, you should download the dataset from [this link](https://drive.google.com/file/d/12RIwW5jN1vrIn8ap1V4-m567I9tUCCBT/view?usp=sharinghttps://drive.google.com/file/d/12RIwW5jN1vrIn8ap1V4-m567I9tUCCBT/view?usp=sharing) and unzip the compressed file manually.
-
-> ⚠️ ***IMPORTANT NOTE*** ⚠️  
-> You should keep a copy of the dataset only in your local machine. **DO NOT** upload the dataset to this remote repository. If you extract the dataset manually, be sure to put them in a folder called `hw2_data` under the root directory of your local repository so that it will be included in the default `.gitignore` file.
+## Methods:
 
 ### Evaluation
 To evaluate your semantic segmentation model, you can run the provided evaluation script provided in the starter code by using the following command.
