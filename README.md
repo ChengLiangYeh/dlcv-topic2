@@ -71,14 +71,13 @@
     The shell script file for running improved segmentation model.
  4.   Run code in the following manner:
  
-             bash hw2_1.sh $1 $2
-            
-            where `$1` is the testing images directory (e.g. `test/images/`), and `$2` is the path of folder where you want to output your prediction file (e.g. `test/label_pred/` ).
+    bash hw2_1.sh $1 $2
+    
+    where `$1` is the testing images directory (e.g. `test/images/`), and `$2` is the path of folder where you want to output your prediction file (e.g. `test/label_pred/` ).
 
-             bash hw2_2.sh $1 $2
-   
-             bash hw2_2_best.sh $1 $2
-            
-            where `$1` is the testing images directory (e.g. `test/images/`), and `$2` is the output prediction directory for segmentation maps (e.g. `test/label_pred/` ).
+    bash hw2_2.sh $1 $2
+    bash hw2_2_best.sh $1 $2
+
+    where `$1` is the testing images directory (e.g. `test/images/`), and `$2` is the output prediction directory for segmentation maps (e.g. `test/label_pred/` ).
 
  5.   Trained Models weights will be auto downloaded by shell script file commands. If the dropbox link dead, please contact me. 
