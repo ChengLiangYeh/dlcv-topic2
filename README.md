@@ -1,9 +1,14 @@
 # Deep Learning for Computer Vision
 ## HW2 Project 1 ― Image Classification
-In project 1, you will need to implement an image classification model and answer some questions in the report.
+- In project 1, you will need to implement an image classification model and answer some questions in the report.
+- Dataset: 25000 colour images with size 32*32 pixels of 50 classes. 22500 images belong to training set. 2500 images belong to validation set.
+
 ![1](./pic/image_classification.png)
+
+
 ## HW2 Project 2 ― Semantic Segmentation
-In project 2, you will need to implement two semantic segmentation models and answer some questions in the report.
+- In project 2, you will need to implement two semantic segmentation models and answer some questions in the report.
+- 
 
 For more details, please click [this link](https://drive.google.com/file/d/1tJhyt7HSUVdnT2w2uJEakn7BiIApfZ8Y/view?usp=sharing) to view the slides of HW2 
 
